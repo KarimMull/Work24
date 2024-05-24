@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+.logo{
+  font-family: "Archivo", sans-serif;
+}
+
+html, body{
+  font-family: "Merriweather", serif;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.infscroll h1{
+  font-size: 22px;
+  letter-spacing: -0.6px;
+}
+
+@media only screen and (max-width:768){
+  .infscroll h1 {
+    font-size: 15px;
+    letter-spacing: -0.0px;
+  }
+  .infscroll-author, .infscroll-date{
+    font-size: 12px;
+  }
+}

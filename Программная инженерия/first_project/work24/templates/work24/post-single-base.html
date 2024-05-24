@@ -1,0 +1,16 @@
+{% extends "work24/base.html" %}
+
+{% block content %}   
+
+<div class="container" style="max-width: 1500px!important;">
+    <div class="row">
+        <div class="col-8 pt-5">{% block mid %}{% endblock mid %}</div>
+        <div class="col-4 pt-5">{% block right %}{% endblock right %}</div>
+    </div>
+</div>
+
+<div class="d-none d-lg-block col-4">
+    {% include "work24/footer.html" %}
+</div>
+
+{% endblock content %}

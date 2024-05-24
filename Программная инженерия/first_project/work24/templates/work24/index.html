@@ -1,0 +1,19 @@
+{% extends "work24/base.html" %}
+
+{% block title %}
+  Home Page
+{% endblock title %}
+
+{% block content %}
+  {% include "work24/components/card.html" %}
+  <div class="row">
+    <div class="col-12 col-lg-8">
+      
+      {% include "work24/components/post-list-elements.html" %}
+
+    </div>
+    <div class="d-none d-lg-block col-4">
+      {% include "work24/footer.html" %}
+    </div>
+  </div>
+{% endblock content %}
